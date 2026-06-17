@@ -1,6 +1,6 @@
 cask "whatport" do
-  version "1.1.0"
-  sha256 "30053118319cfcc1195bd32b8b0995b3418835817e03ccaaeea03f7541184227"
+  version "1.1.1"
+  sha256 "b5d7f6adc3b821e673425780a4f9ffe3d27675cf7fbe4a74c8b14aafa760861b"
 
   url "https://github.com/darrylmorley/whatport/releases/download/v#{version}/WhatPort.zip"
   name "WhatPort"
