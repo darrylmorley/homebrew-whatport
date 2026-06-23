@@ -12,15 +12,15 @@ cask "whatport" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
   depends_on arch: :arm64
 
   app "WhatPort.app"
 
   zap trash: [
-    "~/Library/Preferences/app.whatport.whatport.plist",
     "~/Library/Application Support/WhatPort",
     "~/Library/Caches/app.whatport.whatport",
     "~/Library/HTTPStorages/app.whatport.whatport",
+    "~/Library/Preferences/app.whatport.whatport.plist",
   ]
 end
