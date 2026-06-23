@@ -18,9 +18,9 @@ cask "whatport" do
   app "WhatPort.app"
 
   zap trash: [
-    "~/Library/Preferences/uk.whatport.whatport.plist",
+    "~/Library/Preferences/app.whatport.whatport.plist",
     "~/Library/Application Support/WhatPort",
-    "~/Library/Caches/uk.whatport.whatport",
-    "~/Library/HTTPStorages/uk.whatport.whatport",
+    "~/Library/Caches/app.whatport.whatport",
+    "~/Library/HTTPStorages/app.whatport.whatport",
   ]
 end
